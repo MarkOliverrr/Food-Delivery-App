@@ -1,0 +1,128 @@
+
+
+     */ /* Form */
+/* Hide site header/footer on admin login */
+#header,
+.headrom,
+header.site-header,
+footer,
+.site-footer {
+  display: none !important;
+}
+
+.admin-login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7fb;
+  padding: 24px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 32px 28px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(20, 30, 60, 0.08);
+}
+.form-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1f36;
+  margin-bottom: 12px;
+}
+.form .thumbnail {
+  background: #eef0fb;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 16px;
+  padding: 18px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.form .thumbnail img {
+  display: block;
+  width: 100%;
+}
+.form .alert-error {
+  background: #ffe9e9;
+  color: #a40000;
+  border: 1px solid #ffcccc;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.form input {
+  outline: 0;
+  background: #f7f8fc;
+  width: 100%;
+  border: 1px solid #e4e7f1;
+  margin: 0 0 12px;
+  padding: 14px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+  color: #1a1f36;
+}
+.form input:focus {
+  border-color: #5c4ac7;
+  box-shadow: 0 0 0 3px rgba(92, 74, 199, 0.12);
+}
+.form input[type="submit"] {
+  outline: 0;
+  background: #5c4ac7;
+  width: 100%;
+  border: 0;
+  padding: 14px 12px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background 0.2s ease-in-out, transform 0.05s ease-in-out;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.form input[type="submit"]:hover {
+  background: #4a39b9;
+}
+.form input[type="submit"]:active {
+  transform: translateY(1px);
+}
+.form .message,
+.form .cta {
+  display: none !important;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* END Form */
+/* Base */
+body {
+  background: #f5f7fb;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111827;
+}
+
+#video {
+  display: none;
+}
